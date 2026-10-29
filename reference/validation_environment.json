@@ -1,0 +1,22 @@
+{
+  "python": "3.12.1",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "packages": {
+    "torch": "2.15.0",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "wfdb": "4.3.1",
+    "cryptography": "50.0.2",
+    "liboqs-python": "0.16.0"
+  },
+  "processed_array_sha256": "102156ce7c01041ce20727004546c16cf01c28dc53b6fefd10081d4e1388b230",
+  "local_validation": {
+    "project_tests_passed": 24,
+    "saved_execution_records_verified": 198,
+    "initial_checkpoint_forward_checks": 101,
+    "full_cpu_learners_replayed": 6
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "difference_full_minus_small": 0.0049322858893048,
+  "paired_seed_differences": [
+    0.003863957533948248,
+    0.009968951001257331,
+    0.011197235510175763,
+    0.00282818836969978,
+    -0.003196902968557125
+  ],
+  "patient_seed_bootstrap_95ci": [
+    -0.00924350050507184,
+    0.023810961234291925
+  ],
+  "n_bootstrap": 5000,
+  "endpoint": "Fixed round 30 macro F1; 22 patients and five seeds paired across arms",
+  "claim_limit": "Exploratory follow-up after earlier DS2 examination; no independent test confirmation"
+}

@@ -1,0 +1,99 @@
+{
+  "model": "mlp_rr",
+  "loss": "balanced",
+  "selection_metric": "mean best validation macro F1 over screening seeds",
+  "validation_scores": {
+    "mlp_rr_weighted": 0.4071939493991073,
+    "cnn_spatial_rr_ce": 0.3826014118044075,
+    "cnn_focal": 0.38468824856579165,
+    "cnn_ce": 0.37543166476115936,
+    "mlp_focal": 0.41030249316542106,
+    "cnn_rr_focal": 0.38811136373672533,
+    "mlp_balanced": 0.41936970778681865,
+    "mlp_rr_ce": 0.39100419496718586,
+    "cnn_weighted": 0.3851257339538525,
+    "cnn_rr_weighted": 0.38837319155739847,
+    "cnn_spatial_rr_weighted": 0.3923583962486332,
+    "mlp_rr_balanced": 0.44205482740602364,
+    "mlp_rr_focal": 0.43660865673769705,
+    "cnn_spatial_rr_focal": 0.42115064835253396,
+    "mlp_weighted": 0.3873986237689824,
+    "mlp_ce": 0.3827255879140837
+  },
+  "screening_seeds": [
+    11,
+    22,
+    33
+  ],
+  "candidate_grid": [
+    [
+      "mlp",
+      "ce"
+    ],
+    [
+      "mlp",
+      "weighted"
+    ],
+    [
+      "mlp",
+      "focal"
+    ],
+    [
+      "cnn",
+      "ce"
+    ],
+    [
+      "cnn",
+      "weighted"
+    ],
+    [
+      "cnn",
+      "focal"
+    ],
+    [
+      "cnn_rr",
+      "weighted"
+    ],
+    [
+      "cnn_rr",
+      "focal"
+    ],
+    [
+      "mlp_rr",
+      "ce"
+    ],
+    [
+      "mlp_rr",
+      "weighted"
+    ],
+    [
+      "mlp_rr",
+      "focal"
+    ],
+    [
+      "cnn_spatial_rr",
+      "ce"
+    ],
+    [
+      "cnn_spatial_rr",
+      "weighted"
+    ],
+    [
+      "cnn_spatial_rr",
+      "focal"
+    ],
+    [
+      "mlp",
+      "balanced"
+    ],
+    [
+      "mlp_rr",
+      "balanced"
+    ]
+  ],
+  "complete_screening_grid": true,
+  "algorithmic_selection_reads_test_metrics": false,
+  "exploratory_test_reuse": true,
+  "test_metrics_used": false,
+  "test_metrics_used_scope": "The mechanical selection function does not read test scores; DS2 was inspected during exploratory study development."
+}

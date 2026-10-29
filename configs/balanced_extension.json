@@ -1,0 +1,16 @@
+{
+  "status": "Exploratory weight-strength amendment during spatial CNN screening, before final model-family selection",
+  "reason": "The initial capped square-root weights are conservative under approximately 90-to-1 N/S and N/F training imbalance; test stronger capped inverse-frequency weights",
+  "weight_rule": "w_k = min(total_training_beats / max(class_count,1), 100); absent classes zero; normalize to mean 1 over present classes",
+  "models": [
+    "mlp",
+    "mlp_rr"
+  ],
+  "loss": "balanced cross entropy",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "selection": "Same validation-only screening rule; no claim that exploration used an unseen test set"
+}

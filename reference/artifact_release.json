@@ -1,0 +1,14 @@
+{
+  "version": "v1.0.0",
+  "archive": "benchmark-reference-v1.0.0.zip",
+  "sha256": "1492960e704f64ce347deb69c13314a4b06e7b8468d51cc6f942818f95193a67",
+  "bytes": 437682236,
+  "url": "https://github.com/josephazar/federated-ecg-classification-benchmark/releases/download/v1.0.0/benchmark-reference-v1.0.0.zip",
+  "execution_counts": {
+    "initial": 101,
+    "validation_controls": 43,
+    "integration_timing": 54
+  },
+  "active_conditions": 194,
+  "retired_controls": 4
+}

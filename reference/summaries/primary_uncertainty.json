@@ -1,0 +1,27 @@
+{
+  "baseline": "main_mlp_ce",
+  "enhancement": "main_mlp_rr_balanced",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "test_patients": 22,
+  "observed_macro_f1_difference": -0.016778022211672537,
+  "paired_seed_differences": [
+    -0.017325249801068476,
+    -0.021292930013377287,
+    -0.019865398146137803,
+    -0.02004159981883097,
+    -0.0053649332789481585
+  ],
+  "hierarchical_bootstrap_95ci": [
+    -0.047711707854635355,
+    0.03193869759942465
+  ],
+  "bootstrap_repeats": 5000,
+  "paired_t_p": 0.004576216025267792,
+  "interpretation": "Seeds and test patients resampled with replacement, paired across methods; F1 averaged over fixed five classes. Rare Q class has only seven test beats; selection uncertainty is not included."
+}

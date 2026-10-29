@@ -1,0 +1,90 @@
+{
+  "scope": "Portable code export; execution hashes and release hashes are distinguished.",
+  "sources": [
+    {
+      "path": "fedecg/__init__.py",
+      "execution_source_sha256": "524ef64cab9f9d986ca9f1088d9c12fddb84262494147029c6902d938de0f950",
+      "portable_source_sha256": "5329e472c25e5a6abfa8e114abd0638a01cc6d18a936826cafc2732e75a76d46",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/analyze.py",
+      "execution_source_sha256": "18234c852ba71f4304f0aa68eb6664985241a609b06e2298e19f62c1125739bf",
+      "portable_source_sha256": "18234c852ba71f4304f0aa68eb6664985241a609b06e2298e19f62c1125739bf",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/budget.py",
+      "execution_source_sha256": "8788bbec6a9f35d541be5f90638c448073c784db292eab9943697a78055e9708",
+      "portable_source_sha256": "8788bbec6a9f35d541be5f90638c448073c784db292eab9943697a78055e9708",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/common.py",
+      "execution_source_sha256": "ab2e52e5abf4d41b8bc54a6b465a7d693f68ea0fab89d62273af8d0d1fb965fd",
+      "portable_source_sha256": "ab2e52e5abf4d41b8bc54a6b465a7d693f68ea0fab89d62273af8d0d1fb965fd",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/crypto.py",
+      "execution_source_sha256": "710de5a355aa00215d8f00b86f718e207111b034fae9e3b180a0e77233debcfc",
+      "portable_source_sha256": "82ddf16795df50b3fba5aa5bdaf77badb7cc5e9f1519e3609006cc091dc21ce8",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/data.py",
+      "execution_source_sha256": "3836b0eb2a95603433cd168976da5890a737eba32c2885f715be2a574257f710",
+      "portable_source_sha256": "3836b0eb2a95603433cd168976da5890a737eba32c2885f715be2a574257f710",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/identity.py",
+      "execution_source_sha256": "cb0629c7cc31d39bccd6e357e81617e54a38baed06710a3cc8dcca532ef6dabf",
+      "portable_source_sha256": "a3c258f3f508f4864dcd7aa973d0400d212d703954c3b4ac7540fe42ab838cce",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/integration.py",
+      "execution_source_sha256": "533c1316d0bac905c2b10c2bbb46a7d55c6fc1812cef12b02fe00de161349e3f",
+      "portable_source_sha256": "7fced93e57c0b2513c097d725d50787244faa9bfac6e1cf91a7e13ea93f55dbf",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/models.py",
+      "execution_source_sha256": "4ad735055b5aab4bc36bd4af35a3a20482c2fd3de8ee6aff3d043963d5803296",
+      "portable_source_sha256": "4ad735055b5aab4bc36bd4af35a3a20482c2fd3de8ee6aff3d043963d5803296",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/resources.py",
+      "execution_source_sha256": "f8c676768c8c60aae6884a016cf5372978fd580a63d4ab21981770c96996c5ec",
+      "portable_source_sha256": "bd2a3886b280bc51bf76a4251f68de8a31e3ef643f7f548b058b07b3a256addb",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/validation.py",
+      "execution_source_sha256": "3b6750553778914a1141cd7e959a2c0a478b7faf6af31c4e65f56c83f5524d0a",
+      "portable_source_sha256": "f4a48ec355cadf9c986111bb333e363d4a5af50cbb1d0ca10708d2848e126383",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/figures.py",
+      "execution_source_sha256": "e584433003f7be3405ea757b2b15ba12687d1ffb4daef5d9f1507ed9039ea8d3",
+      "portable_source_sha256": "86e7618e14e7d392efc0fd336136187b70d8f58b4fb575f6bc88b4275a9bc45c",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/train.py",
+      "execution_source_sha256": "d10af51841cbb97de9270ea955d515b7bc3992b84163c20c42436c6b77edd253",
+      "portable_source_sha256": "56196b2a0112b1550556045e6cefb4df565c952dd0435bfb8f24fc436608aacc",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    },
+    {
+      "path": "fedecg/verify.py",
+      "execution_source_sha256": "f553cd8590ebd4fcfa33f07ddadfa166ec71f754bbab51e704f1e089b2058017",
+      "portable_source_sha256": "f553cd8590ebd4fcfa33f07ddadfa166ec71f754bbab51e704f1e089b2058017",
+      "packaging_change": "Import namespace, portable paths, descriptive metadata and platform-specific library discovery; numerical implementation retained."
+    }
+  ],
+  "wire_tag_preserved": true
+}

@@ -1,0 +1,46 @@
+{
+  "status": "Specified before the frozen-workload integration runs.",
+  "scope": "Learning preservation and cost instrumentation using unchanged standard-library protection algorithms.",
+  "recipes": [
+    [
+      "mlp",
+      "ce"
+    ],
+    [
+      "mlp_rr",
+      "balanced"
+    ]
+  ],
+  "learning_seeds": [
+    11,
+    22,
+    33
+  ],
+  "policies": [
+    "none",
+    "fixed_L3",
+    "adaptive"
+  ],
+  "timing_repetitions": 3,
+  "rounds": 30,
+  "protocol": "strict",
+  "partition": "patient",
+  "local_epochs": 1,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_norm_clip": 5,
+  "device": "cpu",
+  "threads": 1,
+  "primary_endpoint": "Exact parameter preservation at every round across transport policies with the same learning seed",
+  "test_evaluation": false,
+  "contexts": "One required level per client and round, shared across directions and models; independent NumPy RNG seed+20000, probabilities [0.244,0.712,0.044]",
+  "adaptive_policy": "Minimum-required-level policy with an explicitly declared synthetic context trace.",
+  "communication": "One full FP32 model download and one full FP32 upload per client per round; fresh-key wrapper unchanged",
+  "byte_boundary": "Raw tensor bytes plus measured key/ciphertext/signature/nonce/tag lengths and existing AAD length; excludes packet framing, TLS, certificates and architecture/schema transfer",
+  "time_boundary": "Sequential host round execution including training, serialization, protection, decoding, aggregation and audit instrumentation; no measured network transmission or parallel device latency",
+  "memory_boundary": "Whole isolated worker peak RSS including interpreter, libraries, data loading, training and audit state vectors",
+  "timing_summary": "Average three repeated executions within each learning seed; summarize three seed means; repeats are not independent learning seeds",
+  "energy": "No new physical device energy claim",
+  "execution_order_seed": 20261029
+}

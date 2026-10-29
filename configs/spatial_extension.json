@@ -1,0 +1,16 @@
+{
+  "status": "Exploratory amendment after initial classifier runs, before final model selection and robustness evaluation",
+  "reason": "Compare global temporal averaging with a position-preserving waveform encoder in the annotated, aligned beat windows",
+  "model": "Conv1d 1-16 k7, 16-32 k5, 32-32 k3 with GroupNorm, ReLU and max-pooling; flatten 32x31 to 64; 4-16 RR branch; 80-64-5 head",
+  "losses": [
+    "ce",
+    "weighted",
+    "focal"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "selection": "Mean validation macro-F1 only; test results of this and other candidates remain exploratory"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "Exploratory diagnostic after initial model screening, excluded from classifier selection",
+  "question": "How does baseline performance change with the unexplained small training-pool size?",
+  "training_beats": [
+    6396,
+    20000,
+    40142
+  ],
+  "test_beats": "The identical full 49692-beat strict test set at every training size",
+  "validation": "The same four fixed DS1 validation records",
+  "model_loss": "Baseline MLP with cross entropy",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "controls": "Same 30 rounds, one local epoch, patient clients, initialization and batch-order seed rules; more data also means more local optimization steps"
+}

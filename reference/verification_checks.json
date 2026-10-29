@@ -1,0 +1,24 @@
+{
+  "manifest_files": 2032,
+  "initial_runs": 101,
+  "validation_runs": 43,
+  "integration_executions": 54,
+  "round_state_arrays_checked": 18,
+  "all_round_parameters_preserved": true,
+  "checkpoint_forward_checks": 101,
+  "main_effect": -0.016778022211672516,
+  "main_patient_seed_interval": [
+    -0.047711707854635355,
+    0.03193869759942465
+  ],
+  "matched_steps_effect": 0.004932285889304777,
+  "matched_steps_interval": [
+    -0.00924350050507184,
+    0.023810961234291925
+  ],
+  "grouped_pooled_endpoints_checked": 9,
+  "crossed_subset_interval": [
+    -0.0019250293238570095,
+    0.03165839067477156
+  ]
+}

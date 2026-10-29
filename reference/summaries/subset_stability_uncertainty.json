@@ -1,0 +1,21 @@
+{
+  "mean_difference_full_minus_small": 0.011568816879561671,
+  "subset_training_patient_bootstrap_95ci": [
+    -0.0019250293238570095,
+    0.03165839067477156
+  ],
+  "subset_seeds": [
+    20261028,
+    20261029,
+    20261030
+  ],
+  "training_seeds": [
+    11,
+    22,
+    33
+  ],
+  "test_patients": 22,
+  "n_bootstrap": 5000,
+  "full_models_reused_across_subsets": true,
+  "claim_limit": "Three crossed subset draws and training seeds, not nine independent training seeds; exploratory repeated DS2 use remains"
+}

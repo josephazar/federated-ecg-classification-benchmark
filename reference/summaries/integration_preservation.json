@@ -1,0 +1,62 @@
+{
+  "comparisons": [
+    {
+      "model": "mlp",
+      "loss": "ce",
+      "seed": 11,
+      "matched_rounds": 30,
+      "matched_executions": 9,
+      "maximum_parameter_difference": 0.0,
+      "all_round_hashes_identical": true
+    },
+    {
+      "model": "mlp",
+      "loss": "ce",
+      "seed": 22,
+      "matched_rounds": 30,
+      "matched_executions": 9,
+      "maximum_parameter_difference": 0.0,
+      "all_round_hashes_identical": true
+    },
+    {
+      "model": "mlp",
+      "loss": "ce",
+      "seed": 33,
+      "matched_rounds": 30,
+      "matched_executions": 9,
+      "maximum_parameter_difference": 0.0,
+      "all_round_hashes_identical": true
+    },
+    {
+      "model": "mlp_rr",
+      "loss": "balanced",
+      "seed": 11,
+      "matched_rounds": 30,
+      "matched_executions": 9,
+      "maximum_parameter_difference": 0.0,
+      "all_round_hashes_identical": true
+    },
+    {
+      "model": "mlp_rr",
+      "loss": "balanced",
+      "seed": 22,
+      "matched_rounds": 30,
+      "matched_executions": 9,
+      "maximum_parameter_difference": 0.0,
+      "all_round_hashes_identical": true
+    },
+    {
+      "model": "mlp_rr",
+      "loss": "balanced",
+      "seed": 33,
+      "matched_rounds": 30,
+      "matched_executions": 9,
+      "maximum_parameter_difference": 0.0,
+      "all_round_hashes_identical": true
+    }
+  ],
+  "runs": 54,
+  "unique_learning_seed_model_pairs": 6,
+  "test_predictions_created": false,
+  "all_existing_main_final_states_reproduced": true
+}

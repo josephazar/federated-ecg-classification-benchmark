@@ -1,0 +1,571 @@
+{
+  "dataset": "MIT-BIH 1.0.0",
+  "classes": [
+    "N",
+    "S",
+    "V",
+    "F",
+    "Q"
+  ],
+  "annotation_mapping": {
+    "N": 0,
+    "L": 0,
+    "R": 0,
+    "e": 0,
+    "j": 0,
+    "A": 1,
+    "a": 1,
+    "J": 1,
+    "S": 1,
+    "V": 2,
+    "E": 2,
+    "F": 3,
+    "/": 4,
+    "f": 4,
+    "Q": 4
+  },
+  "excluded_paced_records": [
+    102,
+    104,
+    107,
+    217
+  ],
+  "window_samples": 252,
+  "before_R": 90,
+  "after_R": 162,
+  "normalization": "per-beat zero mean / population SD; floor 1e-6; no learned test statistics",
+  "filter": "none",
+  "rr_features": "log clipped previous RR, previous-previous RR, median past 10 RR, previous/median; no future RR",
+  "lead": "MLII by header name (handles reversed channel order in record 114)",
+  "requires_expert_R_peaks": true,
+  "records": [
+    {
+      "record": 100,
+      "patient": 100,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2237,
+        "S": 33,
+        "V": 1
+      },
+      "boundary_or_nonfinite_drops": 2
+    },
+    {
+      "record": 101,
+      "patient": 101,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1859,
+        "Q": 2,
+        "S": 3
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 103,
+      "patient": 103,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2081,
+        "S": 2
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 105,
+      "patient": 105,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2526,
+        "V": 41,
+        "Q": 5
+      },
+      "boundary_or_nonfinite_drops": 0
+    },
+    {
+      "record": 106,
+      "patient": 106,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1507,
+        "V": 520
+      },
+      "boundary_or_nonfinite_drops": 0
+    },
+    {
+      "record": 108,
+      "patient": 108,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1739,
+        "V": 17,
+        "F": 2,
+        "S": 4
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 109,
+      "patient": 109,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2491,
+        "F": 2,
+        "V": 38
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 111,
+      "patient": 111,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2123,
+        "V": 1
+      },
+      "boundary_or_nonfinite_drops": 0
+    },
+    {
+      "record": 112,
+      "patient": 112,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2536,
+        "S": 2
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 113,
+      "patient": 113,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1788,
+        "S": 6
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 114,
+      "patient": 114,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1820,
+        "V": 43,
+        "S": 12,
+        "F": 4
+      },
+      "boundary_or_nonfinite_drops": 0
+    },
+    {
+      "record": 115,
+      "patient": 115,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1952
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 116,
+      "patient": 116,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2301,
+        "V": 109,
+        "S": 1
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 117,
+      "patient": 117,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1533,
+        "S": 1
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 118,
+      "patient": 118,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2165,
+        "V": 16,
+        "S": 96
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 119,
+      "patient": 119,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1543,
+        "V": 444
+      },
+      "boundary_or_nonfinite_drops": 0
+    },
+    {
+      "record": 121,
+      "patient": 121,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1860,
+        "S": 1,
+        "V": 1
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 122,
+      "patient": 122,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2475
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 123,
+      "patient": 123,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1514,
+        "V": 3
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 124,
+      "patient": 124,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1535,
+        "S": 31,
+        "V": 47,
+        "F": 5
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 200,
+      "patient": 200,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "V": 826,
+        "N": 1742,
+        "S": 30,
+        "F": 2
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 201,
+      "patient": 201,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1635,
+        "S": 128,
+        "V": 198,
+        "F": 2
+      },
+      "boundary_or_nonfinite_drops": 0
+    },
+    {
+      "record": 202,
+      "patient": 201,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2060,
+        "V": 19,
+        "S": 55,
+        "F": 1
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 203,
+      "patient": 203,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2529,
+        "V": 444,
+        "S": 2,
+        "Q": 4,
+        "F": 1
+      },
+      "boundary_or_nonfinite_drops": 0
+    },
+    {
+      "record": 205,
+      "patient": 205,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2570,
+        "V": 71,
+        "S": 3,
+        "F": 11
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 207,
+      "patient": 207,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "V": 210,
+        "N": 1542,
+        "S": 107
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 208,
+      "patient": 208,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "V": 992,
+        "N": 1585,
+        "F": 372,
+        "S": 2,
+        "Q": 2
+      },
+      "boundary_or_nonfinite_drops": 2
+    },
+    {
+      "record": 209,
+      "patient": 209,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2620,
+        "S": 383,
+        "V": 1
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 210,
+      "patient": 210,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2421,
+        "V": 195,
+        "F": 10,
+        "S": 22
+      },
+      "boundary_or_nonfinite_drops": 2
+    },
+    {
+      "record": 212,
+      "patient": 212,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2747
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 213,
+      "patient": 213,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2640,
+        "F": 362,
+        "S": 28,
+        "V": 220
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 214,
+      "patient": 214,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2001,
+        "V": 256,
+        "Q": 2,
+        "F": 1
+      },
+      "boundary_or_nonfinite_drops": 2
+    },
+    {
+      "record": 215,
+      "patient": 215,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 3194,
+        "V": 164,
+        "S": 3,
+        "F": 1
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 219,
+      "patient": 219,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2082,
+        "V": 64,
+        "F": 1,
+        "S": 7
+      },
+      "boundary_or_nonfinite_drops": 0
+    },
+    {
+      "record": 220,
+      "patient": 220,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1952,
+        "S": 94
+      },
+      "boundary_or_nonfinite_drops": 2
+    },
+    {
+      "record": 221,
+      "patient": 221,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2031,
+        "V": 396
+      },
+      "boundary_or_nonfinite_drops": 0
+    },
+    {
+      "record": 222,
+      "patient": 222,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2272,
+        "S": 209
+      },
+      "boundary_or_nonfinite_drops": 2
+    },
+    {
+      "record": 223,
+      "patient": 223,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2044,
+        "V": 473,
+        "S": 73,
+        "F": 14
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 228,
+      "patient": 228,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1688,
+        "V": 362,
+        "S": 3
+      },
+      "boundary_or_nonfinite_drops": 0
+    },
+    {
+      "record": 230,
+      "patient": 230,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2254,
+        "V": 1
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 231,
+      "patient": 231,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 1567,
+        "S": 1,
+        "V": 2
+      },
+      "boundary_or_nonfinite_drops": 1
+    },
+    {
+      "record": 232,
+      "patient": 232,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 398,
+        "S": 1382
+      },
+      "boundary_or_nonfinite_drops": 0
+    },
+    {
+      "record": 233,
+      "patient": 233,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2229,
+        "V": 830,
+        "S": 7,
+        "F": 11
+      },
+      "boundary_or_nonfinite_drops": 2
+    },
+    {
+      "record": 234,
+      "patient": 234,
+      "lead": "MLII",
+      "fs": 360.0,
+      "counts": {
+        "N": 2700,
+        "S": 50,
+        "V": 3
+      },
+      "boundary_or_nonfinite_drops": 0
+    }
+  ],
+  "array_sha256": "102156ce7c01041ce20727004546c16cf01c28dc53b6fefd10081d4e1388b230"
+}

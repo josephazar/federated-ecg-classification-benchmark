@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "run": "main_mlp_ce_s11",
+      "best_state_hash": "be130eb9f381f6debc04ca1fbe52e826df18c6119dd4ccf9e419ea618a237e4b",
+      "final_state_hash": "faf6f95b43198c4293c6fa8608d312197003b95d442c8b4b2be2b9fb2fba08cd",
+      "best_macro_f1": 0.3574201016231215,
+      "bitwise_checkpoint_reproduction": true
+    },
+    {
+      "run": "main_mlp_ce_s22",
+      "best_state_hash": "83911452aa0edd1f47bb419de305ebf51bde1acf4c6e787ab67e4c8bb3cca59a",
+      "final_state_hash": "83911452aa0edd1f47bb419de305ebf51bde1acf4c6e787ab67e4c8bb3cca59a",
+      "best_macro_f1": 0.34252243454500864,
+      "bitwise_checkpoint_reproduction": true
+    },
+    {
+      "run": "main_mlp_ce_s33",
+      "best_state_hash": "ffff8e00b2eecbdc6c4c9e2c36d37d022ff35ddc9a961200335cc8736d5d683c",
+      "final_state_hash": "7fa7934116fb3471b4d2fc3f26130a0756f265fa19a428a3274b6dd00bfc6231",
+      "best_macro_f1": 0.36056288374224,
+      "bitwise_checkpoint_reproduction": true
+    },
+    {
+      "run": "main_mlp_rr_balanced_s11",
+      "best_state_hash": "c3a86bce334140e6fc68b0774baec6487b00b6f8dea8dfc4253c94f1e82725b8",
+      "final_state_hash": "c3a86bce334140e6fc68b0774baec6487b00b6f8dea8dfc4253c94f1e82725b8",
+      "best_macro_f1": 0.340094851822053,
+      "bitwise_checkpoint_reproduction": true
+    },
+    {
+      "run": "main_mlp_rr_balanced_s22",
+      "best_state_hash": "0d60e5a5897d8816ce13556d0e504ea0e045b0fa067fcdc09244c14bd86c3cd1",
+      "final_state_hash": "0d60e5a5897d8816ce13556d0e504ea0e045b0fa067fcdc09244c14bd86c3cd1",
+      "best_macro_f1": 0.32122950453163135,
+      "bitwise_checkpoint_reproduction": true
+    },
+    {
+      "run": "main_mlp_rr_balanced_s33",
+      "best_state_hash": "330ab002cb0054f46a970bc7c4a8d1025ca160aa7608abf13bcc2d5bd429bb30",
+      "final_state_hash": "330ab002cb0054f46a970bc7c4a8d1025ca160aa7608abf13bcc2d5bd429bb30",
+      "best_macro_f1": 0.3406974855961022,
+      "bitwise_checkpoint_reproduction": true
+    }
+  ],
+  "scope": "Six full 30-round CPU learners replayed using the portable namespace and pinned environment."
+}

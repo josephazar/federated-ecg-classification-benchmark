@@ -1,0 +1,16 @@
+{
+  "status": "Exploratory amendment after initial MLP and some CNN runs, before model-family selection is frozen",
+  "reason": "Test a fast waveform MLP with a separate past-RR feature branch; quantify timing-feature contribution without requiring a larger CNN",
+  "model": "252-128-64 morphology branch and 4-32-16 past-RR branch; concatenate to 80-64-5 head; ReLU",
+  "losses": [
+    "ce",
+    "weighted",
+    "focal"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "selection_rule": "Same validation-only mean macro-F1 rule as the other candidates; selection remains exploratory, not a preregistered confirmatory claim"
+}

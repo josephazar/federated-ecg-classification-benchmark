@@ -1,0 +1,19 @@
+{
+  "model": "mlp_rr",
+  "loss": "focal",
+  "seed": 11,
+  "protocol": "strict",
+  "partition": "patient",
+  "rounds": 30,
+  "local_epochs": 1,
+  "batch_size": 128,
+  "lr": 0.001,
+  "participation": 1.0,
+  "device": "cpu",
+  "threads": 1,
+  "n_clients": 10,
+  "alpha": 0.5,
+  "train_size": 0,
+  "transport": "none",
+  "save_rounds": false
+}

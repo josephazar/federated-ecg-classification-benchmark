@@ -1,0 +1,95 @@
+{
+  "status": "Review-driven exploratory follow-up, specified before the new runs; earlier DS2 exploration cannot be undone",
+  "scope": "ML, validation and experimental controls only; no cryptography or quantum changes",
+  "grouped_validation": {
+    "models": [
+      [
+        "mlp",
+        "ce"
+      ],
+      [
+        "mlp_rr",
+        "ce"
+      ],
+      [
+        "mlp_rr",
+        "balanced"
+      ]
+    ],
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "folds": [
+      [
+        208,
+        118,
+        220,
+        106,
+        112,
+        122,
+        230
+      ],
+      [
+        203,
+        205,
+        223,
+        207,
+        115,
+        119,
+        116
+      ],
+      [
+        101,
+        108,
+        109,
+        114,
+        124,
+        209,
+        215
+      ]
+    ],
+    "endpoint": "Fixed round 30 pooled out-of-fold macro F1 on the 21 strict DS1 subjects, not a DS2 performance estimate",
+    "selection": "Compare three predefined candidates using DS1 only; DS2 is not evaluated or used by this validation stage",
+    "training": "Same FedAvg, one local epoch, batch 128, AdamW lr 0.001, weight decay 0.0001, 100 percent participation; training-only weights"
+  },
+  "matched_compute": {
+    "model_loss": [
+      "mlp",
+      "ce"
+    ],
+    "training_sizes": [
+      6396,
+      40142
+    ],
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "sampling": "128 draws with replacement per local step; both arms use ceil(full-client-count/128) steps per round and full-reference client aggregation weights",
+    "rounds": 30,
+    "primary_endpoint": "Fixed final-round test macro F1; validation-selected endpoints secondary",
+    "interpretation": "Unique example availability varies while gradient-step count, batch size, client weights, initialization and seed rules are held fixed"
+  },
+  "influence": "Leave each of all 22 test patients out in turn as a sensitivity diagnostic only; no patient is removed from headline endpoints",
+  "subset_stability_amendment": {
+    "status": "Added after initial follow-up training started, before these six extra runs; not part of the original follow-up specification",
+    "reason": "Independent reviewer requested variation of the fixed small training subset as well as training randomness",
+    "subset_seeds": [
+      20261028,
+      20261029,
+      20261030
+    ],
+    "training_seeds": [
+      11,
+      22,
+      33
+    ],
+    "new_runs": "Two additional small-subset draws crossed with three training seeds; original draw and full models reused",
+    "uncertainty": "Crossed subset, training-seed and test-patient resampling; full models reused across subset draws"
+  }
+}
