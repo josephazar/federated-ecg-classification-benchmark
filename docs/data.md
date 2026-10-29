@@ -39,6 +39,12 @@ the natural federated clients. All 22 DS2 records remain in the test endpoint.
 | Validation | 8,897 | 7,490 | 395 | 1,008 | 4 | 0 |
 | Test | 49,692 | 44,240 | 1,837 | 3,220 | 388 | 7 |
 
+The separate `subset_reference` runs and canonical transport diagnostics use
+the conventional DS1/DS2 record lists, retaining the 201/202 shared subject.
+Interpret these diagnostic conditions separately from the primary patient-
+disjoint endpoints. Main classifier, grouped-validation, matched-exposure and
+frozen integration results use the strict patient separation described above.
+
 Records and beat indices are retained in each split manifest. The smaller
 6,396- and 20,000-beat conditions sample class-stratified subsets from the same
 training pool, retaining all 17 clients. They do not allocate equal numbers of
