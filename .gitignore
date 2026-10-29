@@ -9,3 +9,4 @@ __pycache__/
 .pytest_cache/
 *.tmp
 .DS_Store
+.ipynb_checkpoints/

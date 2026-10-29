@@ -16,10 +16,19 @@ Its purpose is to make the experiments inspectable and repeatable.
 
 **Maintainer:** Joseph Azar — [joseph_azar@outlook.com](mailto:joseph_azar@outlook.com)
 
+## Start with the illustrated notebooks
+
+The [five executed teaching notebooks](notebooks/README.md) explain the data,
+architectures, FedAvg, results, experimental controls and model-transfer
+measurements through short cells, diagrams, plots and tables. Their outputs
+are visible on GitHub. Reading requires no setup; rerunning the tour needs
+neither the full numerical archive nor model training.
+
 ## Choose a reproduction path
 
 | Goal | What to run | Retraining |
 |---|---|---|
+| Understand the concepts and results visually | [Read the executed notebooks](notebooks/README.md) | None |
 | Check the implementation | Install, prepare data, run the tests | None |
 | Verify saved results | Fetch the versioned archive and run `verify_reference.py` | None |
 | Check portable CPU reproduction | Run `check_portability.py` | Six 30-round MLP runs |
@@ -148,6 +157,7 @@ machine-readable tables are in [Results](docs/results.md) and
 fedecg/               Data, models, training, validation, statistics and transport
 configs/              Experimental specifications and individual run settings
 scripts/              Setup, reference download/verification and reproduction
+notebooks/            Executed visual walkthroughs, exercises and small teaching inputs
 tests/                Data separation, objective, identity and protection checks
 reference/summaries/  Small result tables available directly in Git
 reference/artifacts/  Optional downloaded numerical evidence; ignored by Git

@@ -22,3 +22,7 @@ jobs:
           .venv/bin/python -m fedecg.data preprocess
       - name: Check data separation, objectives and protection
         run: .venv/bin/python -m pytest -q
+      - name: Install the notebook tools in the isolated environment
+        run: .venv/bin/python -m pip install -r requirements-notebooks.txt
+      - name: Execute the five teaching notebooks in fresh kernels
+        run: .venv/bin/python scripts/execute_notebooks.py --output-dir results/notebook-check

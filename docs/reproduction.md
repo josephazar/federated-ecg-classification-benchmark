@@ -21,6 +21,10 @@ references are an optional versioned release download with per-file checksums.
 
 ## Inspect without training
 
+For a guided visual tour, begin with the [executed notebooks](../notebooks/README.md).
+Their committed outputs are readable on GitHub. The notebook guide includes a
+separate installation path that needs no raw signals or native transport build.
+
 ```sh
 .venv/bin/python scripts/fetch_reference.py
 .venv/bin/python scripts/verify_reference.py
