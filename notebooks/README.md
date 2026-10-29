@@ -14,7 +14,7 @@ if GitHub initially shows its source. No Jupyter installation is needed to read.
 | 5 | [Model-transfer measurements](05_model_transfer_measurements.ipynb) | Paired state preservation, message counts and the difference between overhead and total traffic |
 
 Each notebook has a short learning goal, small code cells, interpreted outputs,
-an exercise with an answer scaffold, and an optional extension. Read in order
+an exercise with a worked answer, and an optional extension. Read in order
 or jump to a question of interest. The numerical comparisons retain the negative
 findings and the limits of the exploratory evaluation.
 
